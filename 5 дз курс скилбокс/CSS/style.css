@@ -1,0 +1,128 @@
+*
+{
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+html
+{
+    font-family: sans-serif; /* указание шрифта */
+}
+ul
+{
+    list-style: none;   /*убираем кружки в листе*/
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    max-width: 1207px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img
+{
+    max-width: 100%;
+}
+.header-container
+{
+    height: 100%;
+    display: flex;
+    align-items: center;   
+}
+
+.logo
+{
+    margin-right: 7px;
+    
+}
+.personal-account
+{
+    margin-left: auto;
+}
+.nav-list
+{
+    
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+
+}
+.nav-list-item:not(:last-child)
+{
+    margin-right: 14px;
+}
+
+.btns
+{
+    margin-left: auto;
+}
+.btn
+{
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 7px 2px;
+    text-rendering: auto;
+    color: initial;
+    display: inline-block;
+    text-align: start;
+}
+.section-heading
+{
+    margin-bottom: 34px;
+    margin-top: 34px;
+}
+
+.section-hero-list
+{
+    display: flex;
+    flex-wrap: wrap; /* Очень полезное свойство - отвечает за перевод строки*/
+    list-style: none;
+    justify-content: space-between;
+    
+}
+
+.section-hero-list-item
+{
+    margin-bottom: 20px;
+}
+.section-services-list
+{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-services-item
+{
+    max-width: 573px;
+}
+
+.section-advantages-list
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}       
+
+.section-advantages-item
+{
+    width: 250px;
+}
+.section-accommodation-list
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-accommodation-item
+{
+    margin-bottom: 20px;
+    width: 375px;
+}
